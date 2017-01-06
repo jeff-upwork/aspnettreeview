@@ -112,6 +112,15 @@ namespace Goldtect.ASTreeViewDemo {
         protected global::System.Web.UI.WebControls.Literal aslTreeOne;
         
         /// <summary>
+        /// ddlRoot1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlRoot1;
+        
+        /// <summary>
         /// Literal1 control.
         /// </summary>
         /// <remarks>

@@ -58,7 +58,7 @@
             <table id="sample" width="100%">
                 <tr>
                     <th><h3><asp:Literal ID="aslTreeOne" runat="server" Text="TreeOne"></asp:Literal></h3></th>
-                    <th></th>
+                    <th>Selected Tree One Root : <asp:DropDownList runat="server" ID="ddlRoot1" DataValueField="ProductID" DataTextField="ProductName" OnSelectedIndexChanged="ddlRoot1_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList> </th>
                     <th></th>
                     <th><h3><asp:Literal ID="Literal1" runat="server" Text="TreeTwo"></asp:Literal></h3></th>
                 </tr>
@@ -68,11 +68,8 @@
                         <astv:ASTreeView ID="astvMyTree1" 
                             runat="server"
                             BasePath="~/Scripts/astreeview/"
-                            DataTableRootNodeValue="0"
-                            EnableRoot="true"
                             EnableCheckbox="false"
                             EnableNodeIcon="false"
-                            RootNodeText="Root" 
                             EnableNodeSelection="true" 
                             EnableDragDrop="true" 
                             EnableTreeLines="true"
@@ -121,11 +118,9 @@
                         <astv:ASTreeView ID="astvMyTree2" 
                             runat="server"
                             BasePath="~/Scripts/astreeview/"
-                            DataTableRootNodeValue="0"
                             EnableRoot="true"
                             EnableCheckbox="false"
                             EnableNodeIcon="false"
-                            RootNodeText="Root" 
                             EnableNodeSelection="true" 
                             EnableDragDrop="true" 
                             EnableTreeLines="true"
